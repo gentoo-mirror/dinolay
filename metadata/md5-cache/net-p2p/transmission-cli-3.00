@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install
+DEPEND=dev-libs/libevent:= net-misc/curl[ssl] sys-libs/zlib:= dev-libs/glib dev-util/intltool sys-devel/gettext virtual/os-headers virtual/pkgconfig
+DESCRIPTION=A Fast, Easy and Free BitTorrent client - command line (CLI) version
+EAPI=7
+HOMEPAGE=http://www.transmissionbt.com/
+KEYWORDS=~amd64 -arm -mips -ppc -ppc64 -x86 ~amd64-linux
+LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
+RDEPEND=dev-libs/libevent:= net-misc/curl[ssl] sys-libs/zlib:=
+SLOT=0
+SRC_URI=https://github.com/transmission/transmission-releases/raw/master/transmission-3.00.tar.xz
+_md5_=6f921eab3b9b284f5cf4aa44c478bef1
