@@ -53,6 +53,7 @@ media-fonts/nerd-fonts:tinos - Install Nerd-fonts-patched Tinos fonts
 media-fonts/nerd-fonts:ubuntu - Install Nerd-fonts-patched Ubuntu fonts
 media-fonts/nerd-fonts:ubuntumono - Install Nerd-fonts-patched Ubuntu Mono fonts
 media-fonts/nerd-fonts:victormono - Install Nerd-fonts-patched Victor Mono fonts
+sys-apps/duf:pie - Force external linking
 x11-misc/bdwmb:config - Add a config file
 x11-themes/gruvbox-material-gtk-theme:gtk2 - Install x11-themes/gtk-engines-murrine for GTK2 support
 x11-themes/gruvbox-material-gtk-theme:icons - Install icon theme
