@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A pretty system information tool written in POSIX sh
+EAPI=8
+HOMEPAGE=https://github.com/dylanaraps/pfetch
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/dylanaraps/pfetch/archive/refs/tags/0.6.0.tar.gz -> pfetch-0.6.0.tar.gz
+_md5_=f52590d5c90719a5bf4057903d49d967
