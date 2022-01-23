@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst
+DEPEND=dev-lang/lua:5.4 dev-util/pkgconf sys-devel/make clang? ( sys-devel/clang ) !clang? ( sys-devel/gcc ) fonts? ( media-fonts/nerd-fonts )
+DESCRIPTION=Yet another fetch ...
+EAPI=8
+HOMEPAGE=https://github.com/yrwq/yafetch
+IUSE=config clang hardened lto optimised errors +aggressive-pre-strip +fonts
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-with-advertising
+RDEPEND=dev-lang/lua:5.4 dev-util/pkgconf sys-devel/make clang? ( sys-devel/clang ) !clang? ( sys-devel/gcc ) fonts? ( media-fonts/nerd-fonts )
+SLOT=0
+SRC_URI=https://github.com/TruncatedDinosour/yafetch/archive/refs/tags/v1.12.tar.gz -> yafetch-1.12.tar.gz
+_md5_=49ca5105d9b0de9997a4061c78675f04
