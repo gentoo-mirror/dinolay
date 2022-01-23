@@ -1,5 +1,5 @@
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
-app-misc/yafetch 1.12-r3: Yet another fetch ...
+app-misc/yafetch 1.13: Yet another fetch ...
 dev-scheme/chezscheme 9.5.6: Open-source Chez Scheme implementation from Cisco
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
 media-fonts/nerd-fonts 2.1.0: Nerd Fonts is a project that patches developer targeted fonts with glyphs
