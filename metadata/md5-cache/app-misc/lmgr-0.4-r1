@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=>=sys-apps/coreutils-8.32-r1 >=sys-libs/ncurses-6.2_p20210619 >=app-shells/fzf-0.27.2 >=dev-vcs/git-2.34.1
+DESCRIPTION=Manage, switch and template licenses
+EAPI=8
+HOMEPAGE=https://ari-web.xyz/gh/lmgr
+KEYWORDS=~amd64
+LICENSE=ArAr2
+RDEPEND=>=sys-apps/coreutils-8.32-r1 >=sys-libs/ncurses-6.2_p20210619 >=app-shells/fzf-0.27.2 >=dev-vcs/git-2.34.1
+SLOT=0
+SRC_URI=https://github.com/TruncatedDinosour/lmgr/archive/refs/tags/v0.4.tar.gz -> lmgr-0.4.tar.gz
+_md5_=4fa0de11c928a164dc52bd748fb204d9
