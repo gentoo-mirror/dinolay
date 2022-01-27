@@ -3,7 +3,7 @@ app-misc/lmgr 0.5: Manage, switch and template licenses
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
 app-misc/yafetch 1.14: Yet another fetch ...
 dev-scheme/chezscheme 9.5.6: Open-source Chez Scheme implementation from Cisco
-dev-util/cran 0.1-r2: Manage, make and use char-sets
+dev-util/cran 0.2-r1: Manage, make and use char-sets
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
 media-fonts/nerd-fonts 2.1.0: Nerd Fonts is a project that patches developer targeted fonts with glyphs
 net-p2p/transmission-cli 3.00: A Fast, Easy and Free BitTorrent client - command line (CLI) version
