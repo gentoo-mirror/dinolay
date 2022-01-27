@@ -1,3 +1,4 @@
+app-emulation/mkqemuvm 0.2: A simple wrapper around qemu to make virtual machines
 app-misc/char 0.1: Manage, make and use char-sets
 app-misc/lmgr 0.5: Manage, switch and template licenses
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
