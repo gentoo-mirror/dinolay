@@ -1,9 +1,9 @@
-app-admin/pwdtools 0.2: Password tools for generating, checking and rating passwords
+app-admin/pwdtools 0.4-r1: Password tools for generating, checking and rating passwords
 app-emulation/mkqemuvm 0.2: A simple wrapper around qemu to make virtual machines
 app-misc/char 0.1: Manage, make and use char-sets
 app-misc/lmgr 0.5: Manage, switch and template licenses
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
-app-misc/yafetch 1.14: Yet another fetch ...
+app-misc/yafetch 1.14-r1: Yet another fetch ...
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.2.2: A python wrapper for fzf
 dev-scheme/chezscheme 9.5.6: Open-source Chez Scheme implementation from Cisco
