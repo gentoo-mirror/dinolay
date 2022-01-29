@@ -17,11 +17,13 @@ dev-python/password-strength
 dev-python/pyfzf
 dev-python/pyperclip
 dev-python/pandas
+sys-apps/coreutils
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_install() {
-    emake DESTDIR="${D}/" PREFIX="${EPREFIX}/usr" install || die 'Installing failed'
+    chmod a+rx ./setup.sh
+    DESTDIR="${D}/" PREFIX="${EPREFIX}/usr" ./setup.sh || die 'Installing failed'
 }
 
