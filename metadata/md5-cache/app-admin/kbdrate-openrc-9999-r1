@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=configure install unpack
 DEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
 DESCRIPTION=Change keyboard rate on boot
 EAPI=8
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=6db52155b9675acbd571d36deeac2d99
+_md5_=5fb0687c32cc2ba907b24773805f3dce
