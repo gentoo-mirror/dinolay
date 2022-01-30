@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
+DESCRIPTION=Change keyboard rate on boot
+EAPI=8
+HOMEPAGE=https://ari-web.xyz/gh/kbdrate
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=ArAr2
+PROPERTIES=live
+RDEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=6db52155b9675acbd571d36deeac2d99

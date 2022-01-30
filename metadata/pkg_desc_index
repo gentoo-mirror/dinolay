@@ -1,3 +1,4 @@
+app-admin/kbdrate-openrc 9999: Change keyboard rate on boot
 app-admin/pwdtools 0.5-r2: Password tools for generating, checking and rating passwords
 app-emulation/mkqemuvm 0.2: A simple wrapper around qemu to make virtual machines
 app-misc/char 0.1: Manage, make and use char-sets
