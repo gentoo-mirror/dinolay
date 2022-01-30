@@ -8,6 +8,7 @@ app-misc/colours 0.1: A (fetch?) tool to display the colours of your terminal em
 app-misc/lmgr 0.5: Manage, switch and template licenses
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
 app-misc/yafetch 1.14-r1: Yet another fetch ...
+app-portage/portage-show 0.1: Show installed, orphaned and total packages in a small shellscript fetch tool
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.2.2: A python wrapper for fzf
 dev-scheme/chezscheme 9.5.6: Open-source Chez Scheme implementation from Cisco
