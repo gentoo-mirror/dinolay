@@ -13,7 +13,7 @@ app-portage/portage-show 0.1: Show installed, orphaned and total packages in a s
 dev-python/configparser 5.2.0: Backport of configparser from Python 3
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.2.2: A python wrapper for fzf
-dev-python/typing 3.7.4.3: Type Hints for Python
+dev-python/typing 4.0.1: Type Hints for Python
 dev-scheme/chezscheme 9.5.6: Open-source Chez Scheme implementation from Cisco
 dev-util/cran 0.2-r2: An easy R package manager written in bash
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
