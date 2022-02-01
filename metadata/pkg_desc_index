@@ -20,7 +20,7 @@ dev-util/cran 0.2-r2: An easy R package manager written in bash
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
 media-fonts/nerd-fonts 2.1.0: Nerd Fonts is a project that patches developer targeted fonts with glyphs
 media-gfx/shot 0.1: A dead-simple shellscript around scrot and mpv for taking screenshots
-net-misc/myt 0.5: tool for watching videos on youtube with no spyware and MPV and yt-dlp
+net-misc/myt 0.6: tool for watching videos on youtube with no spyware and MPV and yt-dlp
 net-p2p/transmission-cli 3.00: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 sys-apps/duf 0.6.2: Disk Usage/Free Utility - a better 'df' alternative
 sys-fs/luksmount 0.1-r2: A simple and safe wrapper around cryptsetup written in bash
