@@ -15,15 +15,14 @@ app-portage/portage-show 0.1: Show installed, orphaned and total packages in a s
 dev-python/configparser 5.2.0: Backport of configparser from Python 3
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.2.2: A python wrapper for fzf
-dev-python/typing 3.10.0.0: Type Hints for Python
 dev-util/cran 0.2-r2: An easy R package manager written in bash
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
 media-fonts/nerd-fonts 2.1.0: Nerd Fonts is a project that patches developer targeted fonts with glyphs
 media-gfx/shot 0.1: A dead-simple shellscript around scrot and mpv for taking screenshots
 media-video/mpv 0.34.1: Media player based on MPlayer and mplayer2
-net-misc/myt 0.7: tool for watching videos on youtube with no spyware and MPV and yt-dlp
+net-misc/myt 0.7-r1: tool for watching videos on youtube with no spyware and MPV and yt-dlp
 net-p2p/transmission-cli 3.00: A Fast, Easy and Free BitTorrent client - command line (CLI) version
-sys-apps/duf 0.6.2: Disk Usage/Free Utility - a better 'df' alternative
+sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-fs/luksmount 0.1-r2: A simple and safe wrapper around cryptsetup written in bash
 sys-process/htop-vim 3.0.3: interactive process viewer
 x11-misc/bdwmb 0.8: A simple, modular bash/shell script for configuring your DWM bar.
