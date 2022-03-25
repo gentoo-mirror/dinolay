@@ -42,14 +42,9 @@ strip? ( strip )
 
 DOCS=(README.md TODO.md kos.1 LICENSE)
 
-src_test() {
-    use test || return
-
-    bash ./scripts/test/root.sh
-    bash ./scripts/test/noroot.sh
-}
-
 src_configure() {
+    use test && bash ./scripts/test/noroot.sh
+
     use gcc && export CXX=g++
 
     use size && CXXFLAGS+=" -Os -s"
