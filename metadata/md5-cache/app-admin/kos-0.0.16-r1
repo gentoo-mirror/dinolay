@@ -4,13 +4,13 @@ DESCRIPTION=A simple SUID tool written in C++
 EAPI=8
 HOMEPAGE=https://ari-web.xyz/gh/kos
 INHERIT=bash-completion-r1
-IUSE=gcc strip +man bash-completion doc +clang +size debug +group-inherit +setenv speed lto test +flags unsafe-group-validation unsafe-password-validation +safe
+IUSE=gcc strip +man bash-completion doc +clang +size debug +group-inherit +setenv speed lto test +flags unsafe-group-validation unsafe-password-validation +safe hardened
 KEYWORDS=~amd64
 LICENSE=ArAr2
 RDEPEND=>=sys-libs/libxcrypt-4.4.27 >=dev-util/pkgconf-1.8.0-r1 acct-group/kos man? ( sys-apps/man-db ) gcc? ( sys-devel/gcc ) clang? ( sys-devel/clang ) bash-completion? ( app-shells/bash-completion ) test? ( sys-devel/gcc sys-devel/clang sys-apps/coreutils sys-apps/net-tools app-shells/bash )
-REQUIRED_USE=^^ ( clang gcc ) ?? ( size debug ) debug? ( !strip !speed !lto ) safe? ( !unsafe-group-validation !unsafe-password-validation )
+REQUIRED_USE=^^ ( clang gcc ) ?? ( size debug ) debug? ( !strip !speed !lto ) safe? ( !unsafe-group-validation !unsafe-password-validation ) hardened? ( safe lto speed )
 RESTRICT=debug? ( strip ) strip? ( strip )
 SLOT=0
 SRC_URI=https://github.com/TruncatedDinosour/kos/archive/refs/tags/v0.0.16.tar.gz -> kos-0.0.16.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
-_md5_=e5a240f700cc12c343655d20b02da8f3
+_md5_=208353e6376ba1ebd06124b0e35e72a9
