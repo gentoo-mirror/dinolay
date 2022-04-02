@@ -2,6 +2,48 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/filetools:doc - Install extra documentation
+app-admin/filetools:man - Install man pages
+app-admin/kos:bash-completion - Install bash completions
+app-admin/kos:clang - Use Clang instead of GCC
+app-admin/kos:debug - Build with debug flags
+app-admin/kos:doc - Install extra documentation
+app-admin/kos:flags - Add flag suppport
+app-admin/kos:gcc - Use GCC instead of clang
+app-admin/kos:group-inherit - Inherit root user groups
+app-admin/kos:hardened - Harden output binary for security
+app-admin/kos:infinite-ask - Ask for password infinitely
+app-admin/kos:lto - Enable link-time optimisation
+app-admin/kos:man - Install man pages
+app-admin/kos:no-bypass-root-auth - Validate authentication for root
+app-admin/kos:no-pipe - Disable piping support !!BREAKAGE!!
+app-admin/kos:quiet - Disable logging of kos
+app-admin/kos:safe - Disallow unsafe USE flags
+app-admin/kos:setenv - Modify environment variables to match of root
+app-admin/kos:size - Build for size
+app-admin/kos:speed - Build for speed
+app-admin/kos:stable - Make sure no unstability causing USE flags are used
+app-admin/kos:strip - Strip output binary
+app-admin/kos:test - Test kos
+app-admin/kos:unsafe-group-validation - Don't validate groups of a user !!UNSAFE!!
+app-admin/kos:unsafe-password-echo - Echo password insted of hiding it !!UNSAFE!!
+app-admin/kos:unsafe-password-validation - Don't validate password of a user !!UNSAFE!!
+app-admin/kos:valgrind - Enable valgring memory checks
+app-admin/pwdtools:doc - Install extra documentation
+app-admin/pwdtools:man - Install man pages
+app-misc/man-to-md:man - Install a man page
+app-misc/mkproj:man - Install the manual page and documentation
+app-misc/searx-cli:doc - Install extra documentation
+app-misc/searx-cli:man - Install man page
+app-misc/yafetch:aggresive-pre-strip - Aggresively strip the binary after compiling
+app-misc/yafetch:clang - Use clang the the C code compiler
+app-misc/yafetch:config - Add a config file
+app-misc/yafetch:errors - Enable pedantic flags and error on all warnings
+app-misc/yafetch:fonts - Include fonts as a dependency
+app-misc/yafetch:hardened - Harden the package
+app-misc/yafetch:lto - Use Link Time Optimisation (LTO)
+app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
+dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
@@ -73,6 +115,8 @@ media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and u
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
 media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
 media-video/mpv:zimg - Enable libzimg support (for vf_fingerprint)
+net-misc/myt:man - Install man page
+net-misc/myt:test - Test source code
 sys-apps/duf:pie - Force external linking
 x11-misc/bdwmb:config - Add a config file
 x11-themes/gruvbox-material-gtk-theme:gtk2 - Install x11-themes/gtk-engines-murrine for GTK2 support
