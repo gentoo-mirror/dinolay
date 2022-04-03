@@ -43,6 +43,7 @@ app-misc/yafetch:fonts - Include fonts as a dependency
 app-misc/yafetch:hardened - Harden the package
 app-misc/yafetch:lto - Use Link Time Optimisation (LTO)
 app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
+app-misc/yafetch:test - Test yafetch
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
