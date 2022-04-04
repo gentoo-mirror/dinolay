@@ -38,8 +38,11 @@ app-misc/searx-cli:man - Install man page
 app-misc/yafetch:aggresive-pre-strip - Aggresively strip the binary after compiling
 app-misc/yafetch:clang - Use clang the the C code compiler
 app-misc/yafetch:config - Add a config file
+app-misc/yafetch:debug - Add debug symbols
+app-misc/yafetch:debug-log - Add debug logging
 app-misc/yafetch:errors - Enable pedantic flags and error on all warnings
 app-misc/yafetch:fonts - Include fonts as a dependency
+app-misc/yafetch:gcc - Use gcc the the C code compiler
 app-misc/yafetch:hardened - Harden the package
 app-misc/yafetch:lto - Use Link Time Optimisation (LTO)
 app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
