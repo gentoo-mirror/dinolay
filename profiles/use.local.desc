@@ -5,9 +5,11 @@
 app-admin/filetools:doc - Install extra documentation
 app-admin/filetools:man - Install man pages
 app-admin/kos:bash-completion - Install bash completions
+app-admin/kos:branch-harden-gcc - Adds -mindirect-branch -mfunction-return hardening flags to GCC
 app-admin/kos:clang - Use Clang instead of GCC
 app-admin/kos:debug - Build with debug flags
 app-admin/kos:doc - Install extra documentation
+app-admin/kos:fcf-harden-gcc - Adds -fcf-protection=full hardening flag to GCC
 app-admin/kos:flags - Add flag suppport
 app-admin/kos:gcc - Use GCC instead of clang
 app-admin/kos:group-inherit - Inherit root user groups
@@ -29,6 +31,7 @@ app-admin/kos:unsafe-group-validation - Don't validate groups of a user !!UNSAFE
 app-admin/kos:unsafe-password-echo - Echo password insted of hiding it !!UNSAFE!!
 app-admin/kos:unsafe-password-validation - Don't validate password of a user !!UNSAFE!!
 app-admin/kos:valgrind - Enable valgring memory checks
+app-admin/kos:vtable-harden-gcc - Adds -fvtable-verify=std hardening flag to GCC (not supported on all configurations)
 app-admin/pwdtools:doc - Install extra documentation
 app-admin/pwdtools:man - Install man pages
 app-misc/man-to-md:man - Install a man page
