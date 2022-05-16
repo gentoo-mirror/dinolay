@@ -23,7 +23,7 @@ bash-completion? ( app-shells/bash-completion )
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-IUSE="readline bash-completion doc"
+IUSE="readline +bash-completion doc"
 
 DOCS=(README.md PLUGINS.md doc/BAZ_ENV.md doc/PLUGIN_FOLDER_STRUCTURE.md)
 
@@ -31,15 +31,24 @@ src_compile() {
     tee baz_setup <<EOF
 #!/usr/bin/env sh
 
-set -xe
+set -e
+
+log() { echo "[GENTOO] \$1"; }
 
 main() {
+    log 'Setting up baz'
+    log 'Entering /tmp'
     cd /tmp
 
+    log 'Getting loader template'
     cp /usr/share/baz/baz_loader.sht .
+
+    log 'Installing/setting up baz'
     baz setup
 
-    rm baz_loader.sht
+    log 'Removing template'
+    rm -f -- baz_loader.sht
+    log 'Done!'
 }
 
 main "$@"
