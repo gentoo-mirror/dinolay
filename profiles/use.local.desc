@@ -51,6 +51,9 @@ app-misc/yafetch:lto - Use Link Time Optimisation (LTO)
 app-misc/yafetch:march - Use -march=native flag
 app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
 app-misc/yafetch:test - Test yafetch
+app-shells/baz:bash-completion - Install bash completion
+app-shells/baz:doc - Install extra documentation
+app-shells/baz:readline - Add support for readline via app-misc/rlwrap
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
