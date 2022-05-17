@@ -12,5 +12,5 @@ REQUIRED_USE=^^ ( clang gcc ) ?? ( size debug ) clang? ( !vtable-harden-gcc !bra
 RESTRICT=debug? ( strip ) strip? ( strip ) hardened? ( strip )
 SLOT=0
 SRC_URI=https://github.com/TruncatedDinosour/kos/archive/refs/tags/v0.0.29.tar.gz -> kos-0.0.29.tar.gz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=8e1b237574399f5ff67c95f50d86ee75
