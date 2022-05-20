@@ -14,7 +14,7 @@ app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
 app-misc/searx-cli 0.1-r1: SearX in the CLI
 app-misc/yafetch 0.0.8: Yet another fetch ...
 app-portage/portage-show 0.1: Show installed, orphaned and total packages in a small shellscript fetch tool
-app-shells/baz 1.2.0: A lightweight plugin manager for GNU bash
+app-shells/baz 1.3.0: A lightweight plugin manager for GNU bash
 dev-python/configparser 5.2.0: Backport of configparser from Python 3
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.2.2: A python wrapper for fzf
