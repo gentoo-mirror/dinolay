@@ -19,6 +19,7 @@ app-admin/kos:lto - Enable link-time optimisation
 app-admin/kos:man - Install man pages
 app-admin/kos:no-bypass-root-auth - Validate authentication for root
 app-admin/kos:no-pipe - Disable piping support !!BREAKAGE!!
+app-admin/kos:no-remember-auth - Disables remembering of authentication
 app-admin/kos:quiet - Disable logging of kos
 app-admin/kos:safe - Disallow unsafe USE flags
 app-admin/kos:setenv - Modify environment variables to match of root
