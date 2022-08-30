@@ -23,6 +23,7 @@ app-admin/kos:no-remember-auth - Disables remembering of authentication
 app-admin/kos:quiet - Disable logging of kos
 app-admin/kos:safe - Disallow unsafe USE flags
 app-admin/kos:setenv - Modify environment variables to match of root
+app-admin/kos:short-grace-time - Make the grace period for remembering auth 1min rather than default 5min
 app-admin/kos:size - Build for size
 app-admin/kos:speed - Build for speed
 app-admin/kos:stable - Make sure no unstability causing USE flags are used

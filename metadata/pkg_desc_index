@@ -1,7 +1,7 @@
 acct-group/kos 0-r1: System group: kos
 app-admin/filetools 0.4: Tools for getting, inspecting and validating files and their information
 app-admin/kbdrate-openrc 9999-r1: Change keyboard rate on boot
-app-admin/kos 0.0.37-r1: A simple SUID tool written in C++
+app-admin/kos 0.0.37-r2: A simple SUID tool written in C++
 app-admin/pwdtools 0.9: Password tools for generating, checking and rating passwords
 app-emulation/mkqemuvm 0.4: A simple wrapper around qemu to make virtual machines
 app-misc/char 0.1: Manage, make and use char-sets
