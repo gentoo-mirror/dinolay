@@ -20,6 +20,7 @@ dev-lang/fasm 1.73.30: Flat assembler
 dev-python/configparser 5.2.0: Backport of configparser from Python 3
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.3.1: A python wrapper for fzf
+dev-python/zxcvbn 4.4.28-r1: A realistic password strength estimator
 dev-util/cran 0.2-r2: An easy R package manager written in bash
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
 media-fonts/nerd-fonts 2.1.0: Nerd Fonts is a project that patches developer targeted fonts with glyphs
