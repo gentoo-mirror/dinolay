@@ -15,7 +15,7 @@ app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
 app-misc/searx-cli 0.1-r1: SearX in the CLI
 app-misc/some-bitches 0.1-r1: Get some bitches
 app-misc/yafetch 0.0.9-r1: Yet another fetch ...
-app-shells/baz 1.9.1: A lightweight plugin manager for GNU bash
+app-shells/baz 1.9.2: A lightweight plugin manager for GNU bash
 dev-lang/fasm 1.73.30: Flat assembler
 dev-python/configparser 5.2.0: Backport of configparser from Python 3
 dev-python/password-strength 0.0.3: Password strength and validation
