@@ -132,5 +132,11 @@ net-misc/myt:man - Install man page
 net-misc/myt:test - Test source code
 sys-apps/duf:pie - Force external linking
 x11-misc/bdwmb:config - Add a config file
+x11-misc/plank:apport - Enable installation of Apport support files
+x11-misc/plank:barriers - Enable use of barriers
+x11-misc/plank:benchmark - Enable output of benchmarking data in logs
+x11-misc/plank:dbus - Enable dynamic quicklist support provided over dbusmenu
+x11-misc/plank:debug - Compile with debug code
+x11-misc/plank:doc - Enable documentation generation
 x11-themes/gruvbox-material-gtk-theme:gtk2 - Install x11-themes/gtk-engines-murrine for GTK2 support
 x11-themes/gruvbox-material-gtk-theme:icons - Install icon theme
