@@ -12,6 +12,6 @@ RDEPEND=>=sys-libs/libxcrypt-4.4.27 acct-group/kos man? ( sys-apps/man-db ) bash
 REQUIRED_USE=^^ ( clang gcc ) ?? ( size debug ) clang? ( !vtable-harden-gcc !branch-harden-gcc !fcf-harden-gcc ) debug? ( !strip !speed !lto ) safe? ( !unsafe-group-validation !unsafe-password-validation !unsafe-password-echo ) hardened? ( safe no-pipe !speed !strip !size !lto ) stable? ( !no-bypass-root-auth !no-pipe ) vtable-harden-gcc? ( gcc hardened ) gcc? ( hardened? ( ?? ( branch-harden-gcc fcf-harden-gcc ) ) ) short-grace-time? ( !no-remember-auth )
 RESTRICT=debug? ( strip ) strip? ( strip ) hardened? ( strip )
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/kos/archive/refs/tags/v38.tar.gz -> kos-38.tar.gz
+SRC_URI=https://ari-web.xyz/gh/kos/archive/refs/tags/v39.tar.gz -> kos-39.tar.gz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=b26eb86f3717578ccf36967c3ac9e7df
