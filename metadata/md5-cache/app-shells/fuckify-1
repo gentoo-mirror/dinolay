@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=dev-libs/openssl sys-apps/coreutils app-shells/bash app-arch/xz-utils
+DESCRIPTION=Fuckify your bash commands to the moon and beyond
+EAPI=8
+HOMEPAGE=https://ari-web.xyz/gh/fuckify
+KEYWORDS=~amd64
+LICENSE=unlicense
+RDEPEND=dev-libs/openssl sys-apps/coreutils app-shells/bash app-arch/xz-utils
+SLOT=0
+SRC_URI=https://ari-web.xyz/gh/fuckify/archive/refs/tags/1.tar.gz -> fuckify-1.tar.gz
+_md5_=13ee193597669284c0e532ec42d489fb
