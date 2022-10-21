@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst
+DEPEND=sys-apps/coreutils dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completion? ( app-shells/bash-completion ) gcc? ( sys-devel/gcc[cxx] ) clang? ( sys-devel/clang )
+DESCRIPTION=A lightweight plugin manager for GNU bash
+EAPI=8
+HOMEPAGE=https://ari-web.xyz/gh/baz
+INHERIT=bash-completion-r1
+IUSE=readline +bash-completion doc gcc +clang +baz-cat baz-cat-flush
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sys-apps/coreutils dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completion? ( app-shells/bash-completion ) gcc? ( sys-devel/gcc[cxx] ) clang? ( sys-devel/clang )
+REQUIRED_USE=baz-cat? ( ^^ ( clang gcc ) ) baz-cat-flush? ( baz-cat )
+SLOT=0
+SRC_URI=https://ari-web.xyz/gh/baz/archive/refs/tags/2.7.0.tar.gz -> baz-2.7.0.tar.gz
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_md5_=f375900923f12d2e3e83d37c6e8fd366

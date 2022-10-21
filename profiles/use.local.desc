@@ -56,7 +56,11 @@ app-misc/yafetch:march - Use -march=native flag
 app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
 app-misc/yafetch:test - Test yafetch
 app-shells/baz:bash-completion - Install bash completion
+app-shells/baz:baz-cat - Use optimised-for-baz cat
+app-shells/baz:baz-cat-flush - Manual stdout flush with baz-cat
+app-shells/baz:clang - Use clang for compilation of C++ code
 app-shells/baz:doc - Install extra documentation
+app-shells/baz:gcc - Use gcc for compilation of C++ code
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
