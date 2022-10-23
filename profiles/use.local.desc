@@ -64,6 +64,7 @@ app-shells/baz:cxx - Use optimised-for-baz cat (C++98 version)
 app-shells/baz:doc - Install extra documentation
 app-shells/baz:fasm - Use fasm for compilation of assembly code
 app-shells/baz:gcc - Use gcc for compilation of C code
+app-shells/baz:logging - Enable logging support in the loader
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
