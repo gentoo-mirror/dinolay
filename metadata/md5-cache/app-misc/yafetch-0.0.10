@@ -11,5 +11,5 @@ RDEPEND=dev-lang/lua:5.4 fonts? ( media-fonts/nerd-fonts )
 REQUIRED_USE=^^ ( clang gcc ) debug? ( !hardened !aggressive-pre-strip !lto !optimised )
 RESTRICT=debug? ( strip )
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/yafetch/archive/refs/tags/v0.0.9.tar.gz -> yafetch-0.0.9.tar.gz
+SRC_URI=https://ari-web.xyz/gh/yafetch/archive/refs/tags/v0.0.10.tar.gz -> yafetch-0.0.10.tar.gz
 _md5_=84dd27459e0aa9f8ff4db075a7fe1909
