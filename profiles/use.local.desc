@@ -55,16 +55,10 @@ app-misc/yafetch:lto - Use Link Time Optimisation (LTO)
 app-misc/yafetch:march - Use -march=native flag
 app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
 app-misc/yafetch:test - Test yafetch
-app-shells/baz:asm - Use optimised-for-baz cat (FASM assembly version)
 app-shells/baz:bash-completion - Install bash completion
-app-shells/baz:baz-cat-flush - Manual stdout flush with baz-cat
-app-shells/baz:c - Use optimised-for-baz cat (C89 version)
-app-shells/baz:clang - Use clang for compilation of C code
-app-shells/baz:cxx - Use optimised-for-baz cat (C++98 version)
 app-shells/baz:doc - Install extra documentation
-app-shells/baz:fasm - Use fasm for compilation of assembly code
-app-shells/baz:gcc - Use gcc for compilation of C code
 app-shells/baz:logging - Enable logging support in the loader
+app-shells/baz:ok - Always ensure that the loader exists with code 0
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
