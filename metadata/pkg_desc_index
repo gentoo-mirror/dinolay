@@ -32,6 +32,6 @@ net-p2p/transmission-cli 3.00: A Fast, Easy and Free BitTorrent client - command
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-fs/luksmount 0.1-r2: A simple and safe wrapper around cryptsetup written in bash
 sys-process/htop-vim 3.0.3: interactive process viewer
-x11-misc/bdwmb 1.0: A simple, modular bash/shell script for configuring your DWM bar.
+x11-misc/bdwmb 1.1: A simple, modular bash/shell script for configuring your DWM bar.
 x11-misc/plank 0.11.89: Elegant, simple, clean dock
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
