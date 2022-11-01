@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst
+DEFINED_PHASES=compile install postinst postrm
 DEPEND=sys-apps/coreutils dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completion? ( app-shells/bash-completion )
 DESCRIPTION=A lightweight plugin manager for GNU bash
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=sys-apps/coreutils dev-vcs/git app-shells/bash readline? ( app-misc/rlwr
 SLOT=0
 SRC_URI=https://ari-web.xyz/gh/baz/archive/refs/tags/5.2.0.tar.gz -> baz-5.2.0.tar.gz
 _eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
-_md5_=ff2fe091813348f44f2053f0ed59fd59
+_md5_=dd4426d487c1ea9d26b3edadb0ad4626
