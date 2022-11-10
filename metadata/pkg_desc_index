@@ -27,6 +27,7 @@ dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
 media-fonts/nerd-fonts 2.1.0: Nerd Fonts is a project that patches developer targeted fonts with glyphs
 media-gfx/shot 0.2: A dead-simple shellscript around scrot and mpv for taking screenshots
 media-video/mpv 0.34.1: Media player based on MPlayer and mplayer2
+net-libs/tdlib 9999: Cross-platform library for building Telegram clients
 net-misc/myt 0.7-r1: tool for watching videos on youtube with no spyware and MPV and yt-dlp
 net-p2p/transmission-cli 3.00: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative

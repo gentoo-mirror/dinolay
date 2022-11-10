@@ -132,6 +132,11 @@ media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and u
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
 media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
 media-video/mpv:zimg - Enable libzimg support (for vf_fingerprint)
+net-libs/tdlib:clang - Compile using Clang
+net-libs/tdlib:cli - Install tg_cli
+net-libs/tdlib:gcc - Compile using GCC
+net-libs/tdlib:low-ram - Split source files during compilation (for systems with less than 3.5G RAM)
+net-libs/tdlib:lto - Enable Link Time Optimization
 net-misc/myt:man - Install man page
 net-misc/myt:test - Test source code
 sys-apps/duf:pie - Force external linking
