@@ -14,7 +14,7 @@ app-misc/mkproj 0.2: Make and use templates for projects
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
 app-misc/searx-cli 0.1-r1: SearX in the CLI
 app-misc/some-bitches 0.1-r1: Get some bitches
-app-misc/yafetch 0.0.10: Yet another fetch ...
+app-misc/yafetch 0.0.11: Yet another fetch ...
 app-shells/baz 5.2.0-r1: A lightweight plugin manager for GNU bash
 app-shells/fuckify 1: Fuckify your bash commands to the moon and beyond
 dev-lang/fasm 1.73.30: Flat assembler
