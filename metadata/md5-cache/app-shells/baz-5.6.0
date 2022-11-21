@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sys-apps/coreutils dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completion? ( app-shells/bash-completion )
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/baz/archive/refs/tags/5.5.0.tar.gz -> baz-5.5.0.tar.gz
+SRC_URI=https://ari-web.xyz/gh/baz/archive/refs/tags/5.6.0.tar.gz -> baz-5.6.0.tar.gz
 _eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=ed5f50cd31e6ed2c77e45139845c703d
