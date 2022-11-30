@@ -60,12 +60,6 @@ app-shells/baz:doc - Install extra documentation
 app-shells/baz:logging - Enable logging support in the loader
 app-shells/baz:ok - Always ensure that the loader exists with code 0
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
-dev-lang/apl:doc - Adds extra documentation
-dev-lang/apl:extras - Install extra scripts
-dev-lang/apl:lapack - Adds support for the virtual/lapack numerical library
-dev-lang/apl:nls - Adds Native Language Support (using gettext - GNU locale utilities)
-dev-lang/apl:readline - Enables support for libreadline, a GNU line-editing library that almost everyone wants
-dev-lang/apl:vim-syntax - Pulls in related vim syntax scripts
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
