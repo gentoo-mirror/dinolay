@@ -65,7 +65,9 @@ dev-lang/k:headers - Install development headers for K
 dev-lang/k:libs - Install useful K libraries
 dev-lang/k:repl - Install krepl REPL
 dev-lang/k:test - Enable testing of the K interpreter
-dev-lang/k:vim - Install vim related scripts
+dev-lang/k:vim-ft - Install vim filetype related scripts
+dev-lang/k:vim-ftp - Install vim filetype plugin related scripts
+dev-lang/k:vim-syntax - Install vim syntax related scripts
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
