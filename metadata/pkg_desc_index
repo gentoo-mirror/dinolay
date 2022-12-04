@@ -18,6 +18,7 @@ app-misc/yafetch 0.0.11: Yet another fetch ...
 app-shells/baz 5.7.0: A lightweight plugin manager for GNU bash
 app-shells/fuckify 1: Fuckify your bash commands to the moon and beyond
 dev-lang/fasm 1.73.30: Flat assembler
+dev-lang/k 9999: A simple and fast vector programming language
 dev-python/configparser 5.2.0: Backport of configparser from Python 3
 dev-python/password-strength 0.0.3: Password strength and validation
 dev-python/pyfzf 0.3.1: A python wrapper for fzf

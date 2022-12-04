@@ -1,0 +1,13 @@
+BDEPEND=clang? ( sys-devel/clang ) !clang? ( sys-devel/gcc ) sys-devel/make vim? ( || ( app-editors/vim app-editors/gvim ) ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A simple and fast vector programming language
+EAPI=8
+HOMEPAGE=https://codeberg.org/ngn/k
+INHERIT=git-r3
+IUSE=test clang vim +repl +libs headers
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=20a7dd287c43f0fe4c7bd968146eaa21

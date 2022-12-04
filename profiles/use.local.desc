@@ -60,6 +60,12 @@ app-shells/baz:doc - Install extra documentation
 app-shells/baz:logging - Enable logging support in the loader
 app-shells/baz:ok - Always ensure that the loader exists with code 0
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
+dev-lang/k:clang - Compile with clang rather than gcc
+dev-lang/k:headers - Install development headers for K
+dev-lang/k:libs - Install useful K libraries
+dev-lang/k:repl - Install krepl REPL
+dev-lang/k:test - Enable testing of the K interpreter
+dev-lang/k:vim - Install vim related scripts
 dev-util/cran:man - Install the manual page and documentation
 dev-util/shfmt:man - Include a man page for shfmt
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
