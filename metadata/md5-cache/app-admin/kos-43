@@ -13,5 +13,5 @@ REQUIRED_USE=^^ ( clang gcc ) ?? ( size debug ) clang? ( !vtable-harden-gcc !bra
 RESTRICT=debug? ( strip ) strip? ( strip ) hardened? ( strip )
 SLOT=0
 SRC_URI=https://ari-web.xyz/gh/kos/archive/refs/tags/v43.tar.gz -> kos-43.tar.gz
-_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_eclasses_=toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=9d9abf610c01bb5cbfc5814b3cce5d4e
