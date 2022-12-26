@@ -7,13 +7,11 @@ app-emulation/mkqemuvm 0.5: A simple wrapper around qemu to make virtual machine
 app-misc/char 0.1: Manage, make and use char-sets
 app-misc/colourpicker 0.2: Small CLI colour picker written in python
 app-misc/colours 0.1: A (fetch?) tool to display the colours of your terminal emulator written in bash
-app-misc/jen 0.1-r1: Jen
 app-misc/lmgr 1.3: Manage, switch and template licenses
 app-misc/man-to-md 0.14.1: Converts man pages to Markdown
 app-misc/mkproj 0.2: Make and use templates for projects
 app-misc/pfetch 0.6.0-r1: A pretty system information tool written in POSIX sh
 app-misc/searx-cli 0.1-r1: SearX in the CLI
-app-misc/some-bitches 0.1-r1: Get some bitches
 app-misc/yafetch 0.0.11: Yet another fetch ...
 app-shells/baz 5.8.0: A lightweight plugin manager for GNU bash
 app-shells/fuckify 1: Fuckify your bash commands to the moon and beyond
