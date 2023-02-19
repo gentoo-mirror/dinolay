@@ -58,6 +58,7 @@ app-misc/yafetch:test - Test yafetch
 app-shells/baz:bash-completion - Install bash completion
 app-shells/baz:doc - Install extra documentation
 app-shells/baz:logging - Enable logging support in the loader
+app-shells/baz:nocc - never use the C loader
 app-shells/baz:ok - Always ensure that the loader exists with code 0
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
 dev-lang/k:clang - Compile with clang rather than gcc

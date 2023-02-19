@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completion? ( app-shells/bash-completion )
+DESCRIPTION=a fast, easy, simple and lightweight plugin manager for GNU bash
+EAPI=8
+HOMEPAGE=https://ari-web.xyz/gh/baz
+INHERIT=bash-completion-r1
+IUSE=readline +bash-completion doc logging ok nocc
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completion? ( app-shells/bash-completion )
+SLOT=0
+SRC_URI=https://ari-web.xyz/gh/baz/archive/refs/tags/6.2.0.tar.gz -> baz-6.2.0.tar.gz
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_md5_=ebdb086a58b69ec4c8b1f95f4e0326e8
