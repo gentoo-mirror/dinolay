@@ -47,15 +47,15 @@ main() {
     local s="\$HOME/.config/baz/genoo-cflags.env"
 
     log 'note : for custom build flags set up the CC, CFLAGS, STRIP and STRIPFLAGS env vars manually, https://ari-web.xyz/gh/baz#setup'
-    log "you can put them in $s"
+    log "you can put them in \$s"
     sleep 2
 
     log 'setup will begin soon'
     sleep 2
 
-    if [ -f "$s" ]; then
-        log "sourcing $s"
-        . "$s"
+    if [ -f "\$s" ]; then
+        log "sourcing \$s"
+        . "\$s"
     fi
 
     log 'setting up baz'
@@ -67,7 +67,7 @@ main() {
     rm -rf -- baz/
 
     log 'entering tmp dir'
-    cd "${TMPDIR:-/tmp/}"
+    cd "\${TMPDIR:-/tmp/}"
 
     log 'getting loader templates'
     cp -r /usr/share/baz/ .
@@ -90,8 +90,11 @@ src_install() {
     insinto /usr/share/baz
     doins loader.sht
 
-    insinto /usr/share/baz
-    doins loader/
+    mkdir -p "${D}/${EPREFIX}/usr/share/baz/loader"
+
+    for f in loader/*; do
+        install -Dm644 "$f" "${D}/${EPREFIX}/usr/share/baz/loader"
+    done
 
     dobin baz-setup
     dobin baz
