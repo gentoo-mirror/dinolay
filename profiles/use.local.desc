@@ -55,10 +55,10 @@ app-misc/yafetch:lto - Use Link Time Optimisation (LTO)
 app-misc/yafetch:march - Use -march=native flag
 app-misc/yafetch:optimised - Enable optimisations of code via -Ox flag and few others
 app-misc/yafetch:test - Test yafetch
+app-shells/baz:alloca - allow usage of the alloca function instead of malloc when appropriate
 app-shells/baz:bash-completion - Install bash completion
 app-shells/baz:doc - Install extra documentation
 app-shells/baz:logging - Enable logging support in the loader
-app-shells/baz:mem-custom - use custom malloc(), free() and realloc() functions
 app-shells/baz:nocc - never use the C loader
 app-shells/baz:ok - Always ensure that the loader exists with code 0
 app-shells/baz:readline - Add support for readline via app-misc/rlwrap
