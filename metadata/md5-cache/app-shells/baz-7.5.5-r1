@@ -11,4 +11,4 @@ RDEPEND=dev-vcs/git app-shells/bash readline? ( app-misc/rlwrap ) bash-completio
 SLOT=0
 SRC_URI=https://ari-web.xyz/gh/baz/archive/refs/tags/7.5.5.tar.gz -> baz-7.5.5.tar.gz
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
-_md5_=7dffd6ba3622edffd876ef782f6c05aa
+_md5_=e68cfbf9a86e8c5afeef1412270af590
