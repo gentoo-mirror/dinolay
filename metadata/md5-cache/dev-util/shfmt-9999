@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-lang/go !dev-util/shfmt-bin
 RESTRICT=test network-sandbox
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=git-r3	97f7f638070d17e4c2b6542589bb4575
 _md5_=73d93da9223b42d8fe16d9793c0070f4
