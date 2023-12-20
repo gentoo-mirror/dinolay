@@ -10,5 +10,5 @@ LICENSE=ArAr2
 PROPERTIES=live
 RDEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=5fb0687c32cc2ba907b24773805f3dce
