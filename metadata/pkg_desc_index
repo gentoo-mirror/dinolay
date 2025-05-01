@@ -17,9 +17,6 @@ app-shells/baz 7.6.0: a fast, easy, simple and lightweight plugin manager for GN
 app-shells/fuckify 1: Fuckify your bash commands to the moon and beyond
 dev-lang/fasm 1.73.30: Flat assembler
 dev-lang/k 9999: A simple and fast vector programming language
-dev-python/configparser 5.2.0: Backport of configparser from Python 3
-dev-python/password-strength 0.0.3: Password strength and validation
-dev-python/pyfzf 0.3.1: A python wrapper for fzf
 dev-python/zxcvbn 4.4.28-r1: A realistic password strength estimator
 dev-util/cran 0.2-r2: An easy R package manager written in bash
 dev-util/shfmt 9999: A shell parser and formatter for POSIX shell and bash
@@ -30,7 +27,6 @@ net-misc/myt 0.7-r1: tool for watching videos on youtube with no spyware and MPV
 net-p2p/transmission-cli 3.00: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-fs/luksmount 0.1-r2: A simple and safe wrapper around cryptsetup written in bash
-sys-process/htop-vim 3.0.3: interactive process viewer
 x11-misc/bdwmb 1.1: A simple, modular bash/shell script for configuring your DWM bar.
 x11-misc/plank 0.11.89: Elegant, simple, clean dock
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
