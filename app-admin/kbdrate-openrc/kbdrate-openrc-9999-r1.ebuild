@@ -7,7 +7,7 @@ inherit git-r3
 
 DESCRIPTION="Change keyboard rate on boot"
 HOMEPAGE="https://ari.lt/gh/kbdrate"
-EGIT_REPO_URI="https://github.com/TruncatedDinosour/kbdrate.git"
+EGIT_REPO_URI="https://git.ari.lt/ari/kbdrate.git"
 
 LICENSE="ArAr2"
 SLOT="0"
