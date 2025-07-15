@@ -4,8 +4,8 @@
 EAPI=8
 
 DESCRIPTION="A (fetch?) tool to display the colours of your terminal emulator written in bash"
-HOMEPAGE="https://ari-web.xyz/gh/colours"
-SRC_URI="https://ari-web.xyz/gh/colours/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/colours"
+SRC_URI="https://ari.lt/gh/colours/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

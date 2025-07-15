@@ -4,8 +4,8 @@
 EAPI=8
 
 DESCRIPTION="An easy R package manager written in bash"
-HOMEPAGE="https://ari-web.xyz/gh/cran"
-SRC_URI="https://ari-web.xyz/gh/cran/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/cran"
+SRC_URI="https://ari.lt/gh/cran/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

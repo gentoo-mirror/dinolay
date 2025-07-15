@@ -4,8 +4,8 @@
 EAPI=8
 
 DESCRIPTION="SearX in the CLI"
-HOMEPAGE="https://ari-web.xyz/gh/searx-cli"
-SRC_URI="https://ari-web.xyz/gh/searx-cli/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/searx-cli"
+SRC_URI="https://ari.lt/gh/searx-cli/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

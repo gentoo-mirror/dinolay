@@ -10,8 +10,8 @@ EAPI=8
 inherit bash-completion-r1
 
 DESCRIPTION="a fast, easy, simple and lightweight plugin manager for GNU bash"
-HOMEPAGE="https://ari-web.xyz/gh/baz"
-SRC_URI="https://ari-web.xyz/gh/baz/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/baz"
+SRC_URI="https://ari.lt/gh/baz/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -50,7 +50,7 @@ log() { echo "[GENTOO] \$1"; }
 main() {
     local s="\$HOME/.config/baz/genoo-cflags.env"
 
-    log 'note : for custom build flags set up the CC, CFLAGS, STRIP and STRIPFLAGS env vars manually, https://ari-web.xyz/gh/baz#setup'
+    log 'note : for custom build flags set up the CC, CFLAGS, STRIP and STRIPFLAGS env vars manually, https://ari.lt/gh/baz#setup'
     log "you can put them in \$s"
     sleep 2
 

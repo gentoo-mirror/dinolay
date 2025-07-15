@@ -5,8 +5,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{3..10} )
 
 DESCRIPTION="Make and use templates for projects"
-HOMEPAGE="https://ari-web.xyz/gh/mkproj"
-SRC_URI="https://ari-web.xyz/gh/mkproj/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/mkproj"
+SRC_URI="https://ari.lt/gh/mkproj/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

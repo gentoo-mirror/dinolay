@@ -4,8 +4,8 @@
 EAPI=8
 
 DESCRIPTION="Fuckify your bash commands to the moon and beyond"
-HOMEPAGE="https://ari-web.xyz/gh/fuckify"
-SRC_URI="https://ari-web.xyz/gh/fuckify/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/fuckify"
+SRC_URI="https://ari.lt/gh/fuckify/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="unlicense"
 SLOT="0"

@@ -4,8 +4,8 @@
 EAPI=8
 
 DESCRIPTION="A dead-simple shellscript around scrot and mpv for taking screenshots"
-HOMEPAGE="https://ari-web.xyz/gh/shot"
-SRC_URI="https://ari-web.xyz/gh/shot/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/shot"
+SRC_URI="https://ari.lt/gh/shot/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

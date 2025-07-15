@@ -4,8 +4,8 @@
 EAPI=8
 
 DESCRIPTION="Manage, switch and template licenses"
-HOMEPAGE="https://ari-web.xyz/gh/lmgr"
-SRC_URI="https://ari-web.xyz/gh/lmgr/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/lmgr"
+SRC_URI="https://ari.lt/gh/lmgr/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
