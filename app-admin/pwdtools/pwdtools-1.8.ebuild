@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{9..13} )
 
 DESCRIPTION="Password tools for generating, checking and rating passwords"
 HOMEPAGE="https://ari.lt/gh/pwdtools"
-SRC_URI="https://ari.lt/gh/pwdtools/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://ari.lt/gh/pwdtools/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

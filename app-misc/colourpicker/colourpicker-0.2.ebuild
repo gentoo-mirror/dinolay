@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{8..13} )
 
 DESCRIPTION="Small CLI colour picker written in python"
 HOMEPAGE="https://ari.lt/gh/colourpicker"
-SRC_URI="https://ari.lt/gh/colourpicker/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://ari.lt/gh/colourpicker/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

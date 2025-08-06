@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="Manage, make and use char-sets"
 HOMEPAGE="https://ari.lt/gh/char"
-SRC_URI="https://ari.lt/gh/char/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://ari.lt/gh/char/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"
