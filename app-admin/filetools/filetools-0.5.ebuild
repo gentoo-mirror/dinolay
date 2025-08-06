@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..13} )
 
 DESCRIPTION="Tools for getting, inspecting and validating files and their information"
 HOMEPAGE="https://ari.lt/gh/filetools"
