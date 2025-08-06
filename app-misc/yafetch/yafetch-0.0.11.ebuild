@@ -19,7 +19,7 @@ fonts? ( media-fonts/nerd-fonts )
 RDEPEND="${DEPEND}"
 BDEPEND="
 gcc? ( sys-devel/gcc )
-clang? ( sys-devel/clang )
+clang? ( llvm-core/clang )
 dev-util/pkgconf
 sys-devel/make
 sys-apps/coreutils

@@ -23,7 +23,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 gcc? ( sys-devel/gcc[cxx] )
 vtable-harden-gcc? ( sys-devel/gcc[vtv] )
-clang? ( sys-devel/clang )
+clang? ( llvm-core/clang )
 >=dev-util/pkgconf-1.8.0-r1
 valgrind? ( dev-util/valgrind app-shells/bash )
 test? ( sys-devel/gcc sys-devel/clang sys-apps/coreutils sys-apps/net-tools app-shells/bash )

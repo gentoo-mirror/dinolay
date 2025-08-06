@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND="
-clang? ( sys-devel/clang )
+clang? ( llvm-core/clang )
 !clang? ( sys-devel/gcc )
 sys-devel/make
 
