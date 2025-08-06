@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="A (fetch?) tool to display the colours of your terminal emulator written in bash"
 HOMEPAGE="https://ari.lt/gh/colours"

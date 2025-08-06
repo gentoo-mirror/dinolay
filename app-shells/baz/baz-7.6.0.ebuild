@@ -6,6 +6,7 @@
 # with their own cflags instead of having a systemwide one
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 inherit bash-completion-r1
 

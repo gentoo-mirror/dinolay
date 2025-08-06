@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="A simple, modular bash/shell script for configuring your DWM bar."
 HOMEPAGE="https://ari.lt/gh/bdwmb"

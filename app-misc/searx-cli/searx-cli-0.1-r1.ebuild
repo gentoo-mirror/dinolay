@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="SearX in the CLI"
 HOMEPAGE="https://ari.lt/gh/searx-cli"

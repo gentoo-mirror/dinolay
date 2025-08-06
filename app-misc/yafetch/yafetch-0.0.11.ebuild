@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
+
 LUA_COMPAT=(lua5.4)
 
 DESCRIPTION="Yet another fetch ..."

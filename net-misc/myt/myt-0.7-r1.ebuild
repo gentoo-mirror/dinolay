@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="tool for watching videos on youtube with no spyware and MPV and yt-dlp"
 HOMEPAGE="https://ari.lt/gh/myt"

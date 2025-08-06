@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="Fuckify your bash commands to the moon and beyond"
 HOMEPAGE="https://ari.lt/gh/fuckify"
