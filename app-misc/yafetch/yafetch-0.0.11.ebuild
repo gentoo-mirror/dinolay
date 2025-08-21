@@ -2,11 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
+
 LUA_COMPAT=(lua5.4)
 
 DESCRIPTION="Yet another fetch ..."
 HOMEPAGE="https://github.com/yrwq/yafetch"
-SRC_URI="https://ari-web.xyz/gh/yafetch/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://ari.lt/gh/yafetch/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT-with-advertising"
 SLOT="0"
@@ -19,7 +21,7 @@ fonts? ( media-fonts/nerd-fonts )
 RDEPEND="${DEPEND}"
 BDEPEND="
 gcc? ( sys-devel/gcc )
-clang? ( sys-devel/clang )
+clang? ( llvm-core/clang )
 dev-util/pkgconf
 sys-devel/make
 sys-apps/coreutils

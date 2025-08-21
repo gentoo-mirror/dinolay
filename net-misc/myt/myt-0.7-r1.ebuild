@@ -2,10 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="tool for watching videos on youtube with no spyware and MPV and yt-dlp"
-HOMEPAGE="https://ari-web.xyz/gh/myt"
-SRC_URI="https://ari-web.xyz/gh/myt/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/myt"
+SRC_URI="https://ari.lt/gh/myt/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

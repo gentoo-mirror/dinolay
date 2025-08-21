@@ -2,12 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 inherit bash-completion-r1
 
 DESCRIPTION="A simple SUID tool written in C++"
-HOMEPAGE="https://ari-web.xyz/gh/kos"
-SRC_URI="https://ari-web.xyz/gh/kos/archive/refs/tags/v$PV.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/kos"
+SRC_URI="https://ari.lt/gh/kos/archive/v$PV.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -23,7 +24,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 gcc? ( sys-devel/gcc[cxx] )
 vtable-harden-gcc? ( sys-devel/gcc[vtv] )
-clang? ( sys-devel/clang )
+clang? ( llvm-core/clang )
 >=dev-util/pkgconf-1.8.0-r1
 valgrind? ( dev-util/valgrind app-shells/bash )
 test? ( sys-devel/gcc sys-devel/clang sys-apps/coreutils sys-apps/net-tools app-shells/bash )

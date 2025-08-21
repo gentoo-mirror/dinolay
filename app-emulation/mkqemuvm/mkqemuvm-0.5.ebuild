@@ -2,10 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="A simple wrapper around qemu to make virtual machines"
-HOMEPAGE="https://ari-web.xyz/gh/mkqemuvm"
-SRC_URI="https://ari-web.xyz/gh/mkqemuvm/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/mkqemuvm"
+SRC_URI="https://ari.lt/gh/mkqemuvm/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

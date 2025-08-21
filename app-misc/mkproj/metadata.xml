@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
     <maintainer type="person">
-        <email>ari.web.xyz@gmail.com</email>
-        <name>Ari Archer</name>
+        <email>ari@ari.lt</email>
+        <name>Arija A.</name>
     </maintainer>
     <use>
         <flag name="man">Install the manual page and documentation</flag>

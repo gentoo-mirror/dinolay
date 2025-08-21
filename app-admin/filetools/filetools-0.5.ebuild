@@ -2,11 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{8..10} )
+S="${WORKDIR}/${PN}"
+
+PYTHON_COMPAT=( python3_{8..13} )
 
 DESCRIPTION="Tools for getting, inspecting and validating files and their information"
-HOMEPAGE="https://ari-web.xyz/gh/filetools"
-SRC_URI="https://ari-web.xyz/gh/filetools/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/filetools"
+SRC_URI="https://ari.lt/gh/filetools/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

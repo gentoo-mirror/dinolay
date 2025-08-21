@@ -2,10 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="A simple and safe wrapper around cryptsetup written in bash"
-HOMEPAGE="https://ari-web.xyz/gh/luksmount"
-SRC_URI="https://ari-web.xyz/gh/luksmount/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/luksmount"
+SRC_URI="https://ari.lt/gh/luksmount/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

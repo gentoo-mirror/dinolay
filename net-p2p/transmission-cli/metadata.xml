@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
     <maintainer type="person">
-        <email>ari.web.xyz@gmail.com</email>
-        <name>Ari Archer</name>
+        <email>ari@ari.lt</email>
+        <name>Arija A.</name>
     </maintainer>
     <description>Transmission - the cli</description>
     <longdescription>A small torrent client in the CLI</longdescription>

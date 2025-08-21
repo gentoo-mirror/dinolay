@@ -2,10 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 DESCRIPTION="Manage, make and use char-sets"
-HOMEPAGE="https://ari-web.xyz/gh/char"
-SRC_URI="https://ari-web.xyz/gh/char/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://ari.lt/gh/char"
+SRC_URI="https://ari.lt/gh/char/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ArAr2"
 SLOT="0"

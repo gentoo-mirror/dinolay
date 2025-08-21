@@ -2,12 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+S="${WORKDIR}/${PN}"
 
 inherit git-r3
 
 DESCRIPTION="Change keyboard rate on boot"
-HOMEPAGE="https://ari-web.xyz/gh/kbdrate"
-EGIT_REPO_URI="https://github.com/TruncatedDinosour/kbdrate.git"
+HOMEPAGE="https://ari.lt/gh/kbdrate"
+EGIT_REPO_URI="https://git.ari.lt/ari/kbdrate.git"
 
 LICENSE="ArAr2"
 SLOT="0"
