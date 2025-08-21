@@ -3,7 +3,7 @@ DEFINED_PHASES=configure install unpack
 DEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
 DESCRIPTION=Change keyboard rate on boot
 EAPI=8
-HOMEPAGE=https://ari-web.xyz/gh/kbdrate
+HOMEPAGE=https://ari.lt/gh/kbdrate
 INHERIT=git-r3
 KEYWORDS=~amd64
 LICENSE=ArAr2
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=>=sys-apps/kbd-2.4.0 >=sys-apps/openrc-0.44.10
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=5fb0687c32cc2ba907b24773805f3dce
+_md5_=ce0d5a412e86018cf159e55ddcbad673

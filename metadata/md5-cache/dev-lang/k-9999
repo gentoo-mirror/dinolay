@@ -1,4 +1,4 @@
-BDEPEND=clang? ( sys-devel/clang ) !clang? ( sys-devel/gcc ) sys-devel/make vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) vim-ft? ( || ( app-editors/vim app-editors/gvim ) ) vim-ftp? ( || ( app-editors/vim app-editors/gvim ) ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=clang? ( llvm-core/clang ) !clang? ( sys-devel/gcc ) sys-devel/make vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) vim-ft? ( || ( app-editors/vim app-editors/gvim ) ) vim-ftp? ( || ( app-editors/vim app-editors/gvim ) ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DESCRIPTION=A simple and fast vector programming language
 EAPI=8
@@ -10,4 +10,4 @@ LICENSE=AGPL-3
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4fb01e0f6933ac3c22fde0c69efa0b42
+_md5_=d60f28e447fd26b479cbf2ea9b696fb3

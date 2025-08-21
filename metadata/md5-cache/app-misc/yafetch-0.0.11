@@ -1,4 +1,4 @@
-BDEPEND=gcc? ( sys-devel/gcc ) clang? ( sys-devel/clang ) dev-util/pkgconf sys-devel/make sys-apps/coreutils test? ( sys-apps/coreutils dev-util/valgrind sys-devel/clang dev-lang/lua:5.4 sys-devel/binutils app-shells/bash sys-devel/gcc )
+BDEPEND=gcc? ( sys-devel/gcc ) clang? ( llvm-core/clang ) dev-util/pkgconf sys-devel/make sys-apps/coreutils test? ( sys-apps/coreutils dev-util/valgrind sys-devel/clang dev-lang/lua:5.4 sys-devel/binutils app-shells/bash sys-devel/gcc )
 DEFINED_PHASES=compile configure install postinst
 DEPEND=dev-lang/lua:5.4 fonts? ( media-fonts/nerd-fonts )
 DESCRIPTION=Yet another fetch ...
@@ -11,5 +11,5 @@ RDEPEND=dev-lang/lua:5.4 fonts? ( media-fonts/nerd-fonts )
 REQUIRED_USE=^^ ( clang gcc ) debug? ( !hardened !aggressive-pre-strip !lto !optimised )
 RESTRICT=debug? ( strip )
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/yafetch/archive/refs/tags/v0.0.11.tar.gz -> yafetch-0.0.11.tar.gz
-_md5_=84dd27459e0aa9f8ff4db075a7fe1909
+SRC_URI=https://ari.lt/gh/yafetch/archive/v0.0.11.tar.gz -> yafetch-0.0.11.tar.gz
+_md5_=9509d866cdeead85c6b0d4c57e7054bd

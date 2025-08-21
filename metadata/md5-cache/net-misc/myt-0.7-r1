@@ -2,11 +2,11 @@ DEFINED_PHASES=install test
 DEPEND=>=dev-lang/python-3.9.9-r1[readline] >=dev-python/configparser-5.2.0 >=dev-python/requests-2.26.0 >=dev-python/colorama-0.4.4 >=dev-python/python-mpv-0.5.2 >=dev-python/plumbum-1.7.2 >=dev-python/pyfzf-0.2.2 >=net-misc/yt-dlp-2022.1.21 dev-lang/python[readline] media-video/mpv[libmpv] man? ( >=sys-apps/man-db-2.9.4-r1 ) test? ( >=dev-python/pycodestyle-2.8.0 >=dev-python/pyflakes-2.4.0 >=dev-python/isort-5.10.1 >=dev-python/mypy-0.930 >=dev-python/black-21.12_beta0 >=dev-python/flake8-4.0.1-r1 >=dev-python/pylint-2.12.2 >=app-misc/man-to-md-0.14.1 )
 DESCRIPTION=tool for watching videos on youtube with no spyware and MPV and yt-dlp
 EAPI=8
-HOMEPAGE=https://ari-web.xyz/gh/myt
+HOMEPAGE=https://ari.lt/gh/myt
 IUSE=+man test
 KEYWORDS=~amd64
 LICENSE=ArAr2
 RDEPEND=>=dev-lang/python-3.9.9-r1[readline] >=dev-python/configparser-5.2.0 >=dev-python/requests-2.26.0 >=dev-python/colorama-0.4.4 >=dev-python/python-mpv-0.5.2 >=dev-python/plumbum-1.7.2 >=dev-python/pyfzf-0.2.2 >=net-misc/yt-dlp-2022.1.21 dev-lang/python[readline] media-video/mpv[libmpv] man? ( >=sys-apps/man-db-2.9.4-r1 ) test? ( >=dev-python/pycodestyle-2.8.0 >=dev-python/pyflakes-2.4.0 >=dev-python/isort-5.10.1 >=dev-python/mypy-0.930 >=dev-python/black-21.12_beta0 >=dev-python/flake8-4.0.1-r1 >=dev-python/pylint-2.12.2 >=app-misc/man-to-md-0.14.1 )
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/myt/archive/refs/tags/v0.7.tar.gz -> myt-0.7.tar.gz
-_md5_=1ac5da7135fe4ce7d047c98d6e28b2d2
+SRC_URI=https://ari.lt/gh/myt/archive/v0.7.tar.gz -> myt-0.7.tar.gz
+_md5_=b29028e96b8fb90f7dd3970f312e075c

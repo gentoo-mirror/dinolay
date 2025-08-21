@@ -2,11 +2,11 @@ DEFINED_PHASES=install postinst
 DEPEND=>=dev-python/pyfzf-0.2.2 >=dev-python/requests-2.27.1 >=dev-python/configparser-5.2.0 >=dev-python/beautifulsoup4-4.10.0 man? ( sys-apps/man-db )
 DESCRIPTION=SearX in the CLI
 EAPI=8
-HOMEPAGE=https://ari-web.xyz/gh/searx-cli
+HOMEPAGE=https://ari.lt/gh/searx-cli
 IUSE=+man doc
 KEYWORDS=~amd64
 LICENSE=ArAr2
 RDEPEND=>=dev-python/pyfzf-0.2.2 >=dev-python/requests-2.27.1 >=dev-python/configparser-5.2.0 >=dev-python/beautifulsoup4-4.10.0 man? ( sys-apps/man-db )
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/searx-cli/archive/refs/tags/v0.1.tar.gz -> searx-cli-0.1.tar.gz
-_md5_=e3379efcc5ce1cb1529d8893bb4e2f61
+SRC_URI=https://ari.lt/gh/searx-cli/archive/v0.1.tar.gz -> searx-cli-0.1.tar.gz
+_md5_=eaa75fbdbc61c069bafddec9be72c5e4

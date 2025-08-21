@@ -1,4 +1,4 @@
-BDEPEND=gcc? ( >=sys-devel/gcc-4.9:= ) >=dev-util/cmake-3.0.2 dev-util/gperf clang? ( >=sys-devel/clang-3.4:= ) low-ram? ( dev-lang/php[cli,ctype] ) doc? ( dev-lang/php app-doc/doxygen ) java? ( virtual/jdk:= ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=gcc? ( >=sys-devel/gcc-4.9:= ) >=dev-util/cmake-3.0.2 dev-util/gperf clang? ( >=llvm-core/clang-3.4:= ) low-ram? ( dev-lang/php[cli,ctype] ) doc? ( dev-lang/php app-doc/doxygen ) java? ( virtual/jdk:= ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
 DESCRIPTION=Cross-platform library for building Telegram clients
 EAPI=7
@@ -12,4 +12,4 @@ RDEPEND=dev-libs/openssl:0= sys-libs/zlib
 REQUIRED_USE=gcc? ( !clang ) !gcc? ( clang ) java? ( !lto )
 SLOT=0
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=2edef6c1ef40510f5e9d01be49052509
+_md5_=b170e16489f84a8dee6fa9c7c2b3a2bf

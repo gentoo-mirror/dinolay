@@ -2,11 +2,11 @@ DEFINED_PHASES=install
 DEPEND=>=dev-lang/R-4.0.5 >=app-shells/bash-5.1
 DESCRIPTION=An easy R package manager written in bash
 EAPI=8
-HOMEPAGE=https://ari-web.xyz/gh/cran
+HOMEPAGE=https://ari.lt/gh/cran
 IUSE=+man
 KEYWORDS=~amd64
 LICENSE=ArAr2
 RDEPEND=>=dev-lang/R-4.0.5 >=app-shells/bash-5.1
 SLOT=0
-SRC_URI=https://ari-web.xyz/gh/cran/archive/refs/tags/v0.2.tar.gz -> cran-0.2.tar.gz
-_md5_=e852a911f4d2a25ffc3a527c82ad9141
+SRC_URI=https://ari.lt/gh/cran/archive/v0.2.tar.gz -> cran-0.2.tar.gz
+_md5_=85ed76d2f97eb55dfdbd6d3f2b32c8f2
